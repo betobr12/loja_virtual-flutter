@@ -1,5 +1,34 @@
 # loja_virtual
 
+inserir em:
+
+android/app/build.gradle
+
+android {
+    // ...
+    defaultConfig {
+        // ...
+        minSdkVersion 23
+    }
+}
+
+-----------------------------------------
+
+Atualizar os plugins que representam o firebase
+
+  cupertino_icons: ^0.1.3
+  flutter_staggered_grid_view: ^0.3.0
+  cloud_firestore: ^0.14.2
+  carousel_pro: ^1.0.0
+  transparent_image: ^1.0.0
+  scoped_model: ^1.0.1
+  firebase_auth: ^0.18.2
+  url_launcher: ^5.1.1
+  firebase_core_web: ^0.2.0
+  firebase_core: ^0.5.1
+
+--------------------------------------------------------
+
 Loja Virtual 
 
 ## Getting Started
