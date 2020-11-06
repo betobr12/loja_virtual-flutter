@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:loja_virtual/screens/home_screen.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
   @override
