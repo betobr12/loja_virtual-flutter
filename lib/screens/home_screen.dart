@@ -11,11 +11,11 @@ class HomeScreen extends StatelessWidget {
     return PageView(
       controller: _pageController,
       physics: NeverScrollableScrollPhysics(),
-      children:<Widget> [
-          Scaffold(
-            body: HomeTab(),
-            drawer: CustomDrawer(_pageController),
-          ),
+      children: <Widget>[
+        Scaffold(
+          body: HomeTab(),
+          drawer: CustomDrawer(_pageController),
+        ),
         Scaffold(
           appBar: AppBar(
             title: Text("Produtos"),
@@ -24,8 +24,12 @@ class HomeScreen extends StatelessWidget {
           drawer: CustomDrawer(_pageController),
           body: ProductsTab(),
         ),
-        Container(color: Colors.green,),
-        Container(color: Colors.blue,),
+        Container(
+          color: Colors.green,
+        ),
+        Container(
+          color: Colors.blue,
+        ),
       ],
     );
   }
