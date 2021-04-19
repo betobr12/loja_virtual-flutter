@@ -8,19 +8,19 @@ class SignUpScreen extends StatelessWidget {
   final _passController    = TextEditingController();
   final _addressController = TextEditingController();
 
-  final _formKey = GlobalKey<FormState>();
+  final _formKey = GlobalKey<FormState>(); //valida valores dos forms
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar: AppBar( //bar da aplicação
         title: Text("Criar Conta"),
-        centerTitle: true,
+        centerTitle: true, //centraliza o titulo do bar
       ),
       body: ScopedModelDescendant<UserModel>(builder: (context, child, model) {
         return Form(
-          key: _formKey,
-          child: ListView(
-            padding: EdgeInsets.all(16.0),
+          key: _formKey, //declara a variavel global dentro do form para a validação
+          child: ListView( //exibe uma lista de valores
+            padding: EdgeInsets.all(16.0), //ajusta o padding por igual
             children: <Widget>[
               TextFormField(
                 controller: _nameController,
