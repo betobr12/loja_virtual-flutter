@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "21766033615",
+    "firebase_url": "https://loja-virtual-5d4aa.firebaseio.com",
+    "project_id": "loja-virtual-5d4aa",
+    "storage_bucket": "loja-virtual-5d4aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21766033615:android:3cca90db1247064c5fe7ba",
+        "android_client_info": {
+          "package_name": "com.robertoapp.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21766033615-5tjrcsu7smk39uqqapstppivmupfpd81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYQXeRQuSlYS5xbXCVVHg6wpCxNhCq8Nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21766033615-5tjrcsu7smk39uqqapstppivmupfpd81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

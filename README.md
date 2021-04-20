@@ -1,4 +1,5 @@
-# loja_virtual
+# loja_virtual em desenvolvimento
+
 
 inserir em:
 
